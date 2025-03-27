@@ -3,7 +3,7 @@
   <head>    
     <meta charset="UTF-8">
     <title>Hi Theme</title>
-    <meta name="Portfolio" content="Portfolio">
+    <meta name="Hi Classic" content="Portfolio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1"/>
 	<link rel="shortcut icon" href="imgs/favicon.png">
@@ -17,42 +17,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700;800&display=swap" rel="stylesheet">
-<!--scroll-->
-  <script>
- $(document).ready(function($){
-  $(window).scroll(function () {
-    if($(document).scrollTop() > 280){
-      $(".top").css('display','block');
-	  $(".top-scroll").css('display','block');
-    }
-    else{
-      $(".top").css('display','block');
-	  $(".top-scroll").css('display','none');
-    }
-  });
-});
-<!--end of scroll-->
-
-<!--smooth scroll-->
- $(document).ready(function($){
-$('.main-nav-wrapper').on('click', '.nav-text', function(evt) {
-    if(evt.target.hash !== '') {
-        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
-        return false;
-    }
-});
-});
- $(document).ready(function($){
-$('.main-nav-wrapper').on('click', '.nav-text-scroll', function(evt) {
-    if(evt.target.hash !== '') {
-        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
-        return false;
-    }
-});
-});
-<!--end of smoothscroll-->
-
- </script>
 </head>
 
 <body>  
@@ -126,8 +90,6 @@ $('.main-nav-wrapper').on('click', '.nav-text-scroll', function(evt) {
 					<h3>Custom CSS</h3>
 					<p>The Custom CSS feature allows you to apply page-specific styling without affecting the entire website. You can add custom CSS at the bottom of the page editor, ensuring precise design control. Please note that this CSS will not be visible in the Elementor front-end builder but will be applied when the page is live. This feature is fully compatible with both the Classic Editor and Gutenberg Editor.</p>					
 				</div>	
-
-					<a href="#" id="cv-btn"> Download Hi Classic Theme </a>
 			</div>
 			</div>			
 
@@ -141,34 +103,4 @@ $('.main-nav-wrapper').on('click', '.nav-text-scroll', function(evt) {
 
 </div><!--end of wrapper-->
 </body>
-<!--hide and show-->
-<script>
-$(document).ready(function(){
-  $("#template").click(function(){
-    $(".logo-section").hide('slow');
-    $(".dev-section").hide('slow');
-	$(".template-section").show('slow');
-  });
-  $("#logo").click(function(){
-    $(".logo-section").show('slow');
-	$(".template-section").hide('slow');
-	$(".dev-section").hide('slow');
-  });
-   $("#dev").click(function(){
-    $(".logo-section").hide('slow');
-	$(".template-section").hide('slow');
-	$(".dev-section").show('slow');
-  });
-});
-</script>
-	<!-- lightbox JavaScript -->
-        <script src="js/lightgallery.js"></script>
-        <script src="js/lg-autoplay.js"></script>
-
-        <script>
-            lightGallery(document.getElementById('lightgallery1'));
-            lightGallery(document.getElementById('lightgallery2'));
-        </script>
-		
-
 </html>
