@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    <meta charset="UTF-8">
+    <title>Hi Theme</title>
+    <meta name="Portfolio" content="Portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1"/>
+	<link rel="shortcut icon" href="imgs/favicon.png">
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- jquery library-->
+	 <!-- Custom stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+	<!--googlefont-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700;800&display=swap" rel="stylesheet">
+<!--scroll-->
+  <script>
+ $(document).ready(function($){
+  $(window).scroll(function () {
+    if($(document).scrollTop() > 280){
+      $(".top").css('display','block');
+	  $(".top-scroll").css('display','block');
+    }
+    else{
+      $(".top").css('display','block');
+	  $(".top-scroll").css('display','none');
+    }
+  });
+});
+<!--end of scroll-->
+
+<!--smooth scroll-->
+ $(document).ready(function($){
+$('.main-nav-wrapper').on('click', '.nav-text', function(evt) {
+    if(evt.target.hash !== '') {
+        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
+        return false;
+    }
+});
+});
+ $(document).ready(function($){
+$('.main-nav-wrapper').on('click', '.nav-text-scroll', function(evt) {
+    if(evt.target.hash !== '') {
+        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
+        return false;
+    }
+});
+});
+<!--end of smoothscroll-->
+
+ </script>
+</head>
+
+<body>  
+<div class="wrapper">
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+<div class="top">
+				<div class="row top-section">
+					<div class="col-xs-12 col-sm-12 col-md-12 main-logo">
+					<img src="imgs/hi-logo.png">
+					</div>
+				</div>
+			</div>
+
+	<!--banner-->
+		<div class="banner" id="banner-section">
+			<div class="row banner-section">
+				<div class="col-xs-12 col-sm-12 col-md-12 main-banner">
+					<h1>Welcome To Hi Theme</h1>
+					<p>Hi Classic Theme is a lightweight and minimalist WordPress theme designed for those who appreciate simplicity and flexibility. It is fully compatible with Elementor, allowing you to easily customize your website’s design. With Hi Classic, you can personalize your header and footer without needing the pro version of Elementor, making it an excellent choice for users who want a clean and customizable website without the bloat.
+				</div>
+			</div>
+		</div>
+
+	<!--content-->
+	
+		<div class="first-section" id="second-row">
+			<div class="row second-section-content">		
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<img src="imgs/settings.jpg" style="width:100%;">				
+				</div>				
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h4>Theme Setting</h41>	
+					<h3>Elementor Header & Footer Settings</h3>
+					<p>Easily select your preferred header and footer templates from the saved templates section to ensure a seamless and professional look across your website.</p>
+					<h3>Custom Code Integration</h3>
+					<p>Enhance your website’s functionality with custom JavaScript, HTML, and CSS:</p>
+					<h3>Editor Settings</h3>
+					<p>Decide which content editor you want to use by default for posts and pages.</p>
+					<h3>Hi Widgets</h3>
+					<p>Enable or disable additional Hi widgets to enhance your website’s front-end experience. These widgets work exclusively with Elementor. <strong>Hi Dynamic Content,Hi Dynamic PostHi,Template Display and Hi Slider</strong></p></p>					
+				</div>				
+			
+			</div>
+			</div>
+		<div class="second-section" id="second-row">
+			<div class="row second-section-content">		
+			
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h4>Hi Widgets</h4>	
+					<p>The Hi Widgets are specially designed for Elementor and provide additional features to enhance your website’s functionality. These widgets help you display dynamic content, templates, sliders, and more.</p>
+					<h3>Hi Dynamic Content</h3>
+					<p>The Hi Dynamic Content widget is a powerful tool that allows you to display all your posts or products dynamically. With customizable settings, you can control the layout, the number of rows, and the number of posts or products displayed per page.</p>
+					<h3>Hi Dynamic Post</h3>
+					<p>The Hi Dynamic Post widget is designed specifically for displaying blog posts. With this widget, you have full control over which categories of posts to showcase, along with customizable layout options.</p>
+					<h3>Template Display</h3>
+					<p>The Hi Template Display widget allows you to showcase any saved Elementor templates on your pages with ease. This feature enables you to select and display pre-designed templates within the Page or Container tab, giving you full control over your website’s layout and design.</p>
+					<h3>Hi Slider</h3>
+					<p>The Hi Slider widget is a user-friendly and customizable slider that allows you to showcase products, content, or banners effortlessly. Whether you're highlighting featured items, blog posts, or promotional banners, this slider offers full control over layout and styling.</p>
+				</div>				
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<img src="imgs/widgets.jpg" style="width:350px;">				
+				</div>				
+			</div>
+			</div>
+			
+
+		<div class="third-section" id="second-row">
+			<div class="row second-section-content">						
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<img src="imgs/custom-css.jpg" style="width:100%;">		
+					<h3>Custom CSS</h3>
+					<p>The Custom CSS feature allows you to apply page-specific styling without affecting the entire website. You can add custom CSS at the bottom of the page editor, ensuring precise design control. Please note that this CSS will not be visible in the Elementor front-end builder but will be applied when the page is live. This feature is fully compatible with both the Classic Editor and Gutenberg Editor.</p>					
+				</div>	
+
+					<a href="#" id="cv-btn"> Download Hi Classic Theme </a>
+			</div>
+			</div>			
+
+
+
+<div class="footer">
+	<div class="row footer-section-content">
+                     <div class="col-xs-12 col-sm-12 col-md-12"><p>COPYRIGHT@<span id="f-hightlight">Hi Theme</span></p></div>
+</div>
+</div>
+
+</div><!--end of wrapper-->
+</body>
+<!--hide and show-->
+<script>
+$(document).ready(function(){
+  $("#template").click(function(){
+    $(".logo-section").hide('slow');
+    $(".dev-section").hide('slow');
+	$(".template-section").show('slow');
+  });
+  $("#logo").click(function(){
+    $(".logo-section").show('slow');
+	$(".template-section").hide('slow');
+	$(".dev-section").hide('slow');
+  });
+   $("#dev").click(function(){
+    $(".logo-section").hide('slow');
+	$(".template-section").hide('slow');
+	$(".dev-section").show('slow');
+  });
+});
+</script>
+	<!-- lightbox JavaScript -->
+        <script src="js/lightgallery.js"></script>
+        <script src="js/lg-autoplay.js"></script>
+
+        <script>
+            lightGallery(document.getElementById('lightgallery1'));
+            lightGallery(document.getElementById('lightgallery2'));
+        </script>
+		
+
+</html>
