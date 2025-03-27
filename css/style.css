@@ -138,53 +138,7 @@ strong {
 	padding-top:20px;
 	text-align:center;
 }
-/*scroll nav*/
-.top-scroll #main-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 25px;
-  text-align: center;
-}
 
-.top-scroll #main-nav li {
-  display: block;
-    margin-bottom: 10px;
-}
-.top-scroll #main-nav li a{
-  color:#fff;
-  padding: 22px;
-  font-family: 'Raleway', sans-serif;
-  font-size:17px;
-  letter-spacing:3.5px;
-  
-}
-.top-scroll #main-nav li a:hover{
-	color:#00e0c0;
-  
-}
-.top-scroll .top-section {
-    background: red;
-    width:auto;
-    position: absolute;
-    right: 0;
-	top: 100px;
-}
-.top-scroll{
-	-webkit-box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
-	box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
-    background-color:#fff;
-    margin-bottom: 0px;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 9;
-	padding: 0;
-	display:none;
-}
-.top-scroll .nav-wrapper {
-    margin-top:0px;
-}
 .banner {
 	width:100%;
 	padding-top: 85px;
@@ -206,19 +160,6 @@ strong {
 	text-transform:uppercase;
 	line-height: 55px;
 }
-#cv-btn:hover{
-	text-decoration:none;
-}
-#cv-btn{
-	background:#00228b;
-	padding:10px 20px;
-	color:#fff;
-	text-transform:uppercase;
-	font-family: 'Raleway', sans-serif;
-	font-size:20px;
-	top:20px;
-	position:relative;
-}
 .logos{
 	width:100%;
 	background-color:#efefef;
@@ -226,9 +167,6 @@ strong {
     padding-bottom: 25px;
 }
 
-.second-section{
-
-}
 .second-section h1{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2.5px;
